@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UI</title>   <!--타이틀-->
+</head>
+<style>
+    .layout {
+        width: 500px;     /*전체 너비*/
+        margin: 0 auto;   /*여유공간*/
+        margin-top: 40px;
+    }
+    .layout  input {       /*제목*/
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .layout  textarea {     /*메인*/
+        width: 100%;
+        margin-top: 10px;
+        min-height: 300px;
+    }
+
+</style>
+<body>
+<div class="layout">
+    <form action="/UIpro" method="post">
+        <input name="title" type="text" placeholder="제목을 입력하시오.">
+        <textarea name="content"></textarea> <!-- 메인-->
+        <button type="submit">작성</button>
+    </form>
+`
+</div>
+</body>
+</html>
