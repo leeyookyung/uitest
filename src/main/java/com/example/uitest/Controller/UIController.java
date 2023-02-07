@@ -21,8 +21,8 @@ public class UIController {
     @PostMapping("/UIpro")
     public String UIpro(board board, String title, String content) {
 
-//        System.out.println(title);
-//        System.out.println(content);
+        System.out.println(title);
+        System.out.println(content);
 //        boardService.write(board);
         return "";
     }
